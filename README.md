@@ -10,5 +10,5 @@
 
 **Ссылка не проект**
 
-* [Ссылка на cайт в gh-pages](..)
+* [Ссылка на cайт в gh-pages](https://yandex-practicum-team.github.io/competition-project/)
 
