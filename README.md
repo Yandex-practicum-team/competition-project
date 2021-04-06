@@ -8,7 +8,7 @@
 
 Выиграть)
 
-**Ссылка не проект**
+**Ссылка на проект**
 
 * [Ссылка на cайт в gh-pages](https://yandex-practicum-team.github.io/competition-project/)
 
