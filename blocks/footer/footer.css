@@ -1,14 +1,27 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 700px;
-    background-color: #FECDA7;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  background-color: #FECDA7;
+  font-family: 'roboto', Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+  font-size: 40px;
+	line-height: 1;
 }
 
 @media screen and (min-width: 768px) {
-    .footer {
-        min-height: 400px;
-    }
+  .footer {
+    min-height: 500px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    width: 1440px;
+    min-height: 697px;
+  }
 }
