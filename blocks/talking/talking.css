@@ -1,0 +1,11 @@
+.talking {
+  margin: auto;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .talking {
+    width: 1440px;
+  }
+}

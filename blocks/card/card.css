@@ -1,11 +1,16 @@
 .card {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    outline: solid red;
+  margin: 0;
+  padding: 0 75px 160px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'roboto', Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
 }

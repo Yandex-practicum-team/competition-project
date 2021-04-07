@@ -1,0 +1,10 @@
+.talking__title {
+  margin: 0;
+  max-width: 600px;
+  padding-left: 75px;
+  padding-bottom: 140px;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
