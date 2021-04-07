@@ -1,0 +1,25 @@
+.lead__image {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+
+@media (min-width: 425px) {
+  .lead__image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lead__image {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__image {
+    padding-right: 100px;
+  }
+}
