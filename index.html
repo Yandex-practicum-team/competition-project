@@ -7,29 +7,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./image/logo-header.svg">
-  <meta name="description" content="Сорвеновательный проект для Яндекс Практикум">
+  <meta name="description" content="Сореновательный проект для Яндекс Практикум">
   <meta name="autor" content="Дарья Ткачёва, Дмитрий Дудин">
-  <title>Сорвевновательный проект</title>
+  <title>Соревновательный проект</title>
 </head>
 
-<body>
+<body class="body">
 
-  <header class="header">
-    <ul class="header__links-box">
-      <li class="header__link">Мечты</li>
-      <li class="header__link">Ожидания</li>
-      <li class="header__link">Реальность</li>
-    </ul>
-    <p class="header__link">Пожаловаться</p>
+  <header class="header body__container">
+    <nav>
+      <ul class="header__links-box">
+        <li class="header__link-item">
+          <a class="header__link" href="#" target="_self" rel="noopener">Мечты</a>
+        </li>
+        <li class="header__link-item">
+          <a class="header__link" href="#" target="_self" rel="noopener">Ожидания</a>
+        </li>
+        <li class="header__link-item">
+          <a class="header__link" href="#" target="_self" rel="noopener">Реальность</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="header__link">Пожаловаться</a>
   </header>
 
   <main>
-    <section class="lead">
-      <p class="lead__subtitle">КУДА Я ПОЕДУ</p>
+    <section class="lead body__container">
+      <p class="lead__subtitle">Куда я поеду</p>
       <h1 class="lead__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
       <img class="lead__image" src="./" alt="Обложка заголовка">
     </section>
-    <section class="places">
+
+    <section class="places body__container">
       <article class="place">
         <h3 class="place__title">Поеду в лес</h3>
         <img class="place__image" src="./image/place__image/places-forest.jpeg" alt="Лес">
@@ -58,8 +67,9 @@
                 <p class="place__paragraph">Уеду я.</p>-->
       </article>
     </section>
-    <section class="talking">
-      <p class="talking__subtitle">ЛЮДИ</p>
+
+    <section class="talking body__container">
+      <p class="talking__subtitle">Люди</p>
       <h2 class="talking__title"> Что&nbsp;говорят&nbsp;и&nbsp;говорили люди&nbsp;о&nbsp;путешествиях</h3>
         <ul class="card">
           <li class="card__item">
@@ -85,7 +95,7 @@
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer body__container">
     <p class="footer__text">&copy; 2020</p>
     <!--Хотелось бы поставить авторство нашей
         команды в footer, но задача соответствовать макету-->

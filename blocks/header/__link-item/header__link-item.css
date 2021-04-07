@@ -1,0 +1,19 @@
+.header__link-item {
+  margin: 0 0 8px;
+}
+
+.header__lang-item:last-child {
+  margin: 0;
+}
+
+@media (min-width: 425px) {
+  .header__link-item {
+    margin: 0 42px 0 0;
+  }
+}
+
+@media (min-width: 425px) {
+  .header__link-item:last-child {
+    margin: 0;
+  }
+}
