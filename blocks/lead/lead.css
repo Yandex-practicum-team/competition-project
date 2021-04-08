@@ -1,8 +1,8 @@
 .lead {
   display: flex;
   flex-direction: column;
-  width: 90%;
-  padding: 22px 0 50px;
+  /* width: 90%; */
+  padding: 22px 16px 50px;
 }
 
 @media (min-width: 425px) {
@@ -10,7 +10,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 66px 0 150px;
+    padding: 40px 78px 150px;
+    /* width: 100%; */
+
+
 
   }
 }
