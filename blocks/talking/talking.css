@@ -1,11 +1,11 @@
 .talking {
   margin: auto;
   width: 100%;
+  background-color: #F8F8F8;
 }
-
 
 @media screen and (min-width: 1440px) {
   .talking {
-    width: 1440px;
+    max-width: 1440px;
   }
 }

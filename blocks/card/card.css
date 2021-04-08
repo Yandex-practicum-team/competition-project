@@ -1,16 +1,24 @@
 .card {
   margin: 0;
-  padding: 0 75px 160px;
+  padding: 0 16px 40px;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 60px;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'roboto', Arial, sans-serif;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  font-family: 'Basis Grotesque Pro', Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	line-height: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    padding: 0 75px 165px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: minmax(180px, 1fr) 60px minmax(180px, 1fr) 60px minmax(180px, 1fr) 60px minmax(180px, 1fr);
+    grid-template-columns: repeat(4, minmax(180px, 1fr));
+    gap: 60px;
+  }
 }
