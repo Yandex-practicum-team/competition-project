@@ -1,7 +1,15 @@
 .card__title {
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
+  line-height: 1;
+  font-stretch: ultra-condensed;
+}
+
+@media screen and (min-width: 1024px) {
+  .card__title {
+    padding-bottom: 30px;
+  }
 }

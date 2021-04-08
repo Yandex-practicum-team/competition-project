@@ -1,10 +1,18 @@
 .talking__title {
   margin: 0;
   max-width: 600px;
-  padding-left: 75px;
-  padding-bottom: 140px;
-  font-family: 'roboto', Arial, sans-serif;
+  padding-left: 16px;
+  padding-bottom: 60px;
+  font-family: 'Basis Grotesque Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .talking__title {
+    padding-left: 75px;
+    padding-bottom: 138px;
+    font-size: 40px;
+  }
 }
