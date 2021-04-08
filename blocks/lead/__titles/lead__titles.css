@@ -1,5 +1,19 @@
 .lead__titles {
   display: flex;
   flex-direction: column;
-  max-width: 590px;
+  margin: 0 16px 32px;
 }
+
+@media (min-width: 425px) {
+  .lead__titles {
+    max-width: 225px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 550px) {
+  .lead__titles {
+    max-width: 590px;
+  }
+}
+

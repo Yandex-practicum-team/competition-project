@@ -1,6 +1,31 @@
 .lead__title {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 600;
   margin: 0;
   word-spacing: -2px;
+  white-space: pre-line;
+}
+
+@media (min-width: 425px) {
+  .lead__title {
+    white-space: normal;
+  }
+}
+
+@media (min-width: 550px) {
+  .lead__title {
+    white-space: pre-line;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__title {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__title {
+    font-size: 40px;
+  }
 }
