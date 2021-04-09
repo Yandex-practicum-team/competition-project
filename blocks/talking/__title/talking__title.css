@@ -1,8 +1,7 @@
 .talking__title {
   margin: 0;
   max-width: 600px;
-  padding-left: 16px;
-  padding-bottom: 60px;
+  padding: 0 16px 60px;
   font-family: 'Basis Grotesque Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -12,11 +11,14 @@
   -webkit-margin-after: 0;
           margin-block-end: 0;
 }
-
+@media screen and (min-width: 425px) {
+  .talking__title {
+    padding: 0 24px 138px;
+  }
+}
 @media screen and (min-width: 768px) {
   .talking__title {
-    padding-left: 75px;
-    padding-bottom: 138px;
+    padding: 0 0 138px 75px;
     font-size: 40px;
   }
 }
