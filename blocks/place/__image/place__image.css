@@ -3,12 +3,14 @@
     height: 300px;
     object-position: bottom center;
     object-fit: cover;
+    order: 2;
 }
 
 @media (min-width: 425px) {
   .place__image {
     height: 450px;
     object-position: center;
+    order: 0;
   }
 }
 
