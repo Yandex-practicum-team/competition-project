@@ -1,0 +1,14 @@
+.place__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:  #f2f2f2;
+  padding: 72px 0 94px;
+}
+
+@media (min-width: 768px) {
+  .place__text {
+    width: 50%;
+  }
+}
