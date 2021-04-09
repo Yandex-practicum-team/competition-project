@@ -10,14 +10,14 @@
 
 }
 
-@media (min-width: 425px) {
+@media screen and (min-width: 425px) {
   .lead__titles {
     max-width: 225px;
     margin: 0;
   }
 }
 
-@media (min-width: 550px) {
+@media screen and (min-width: 550px) {
   .lead__titles {
     max-width: 590px;
   }

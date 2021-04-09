@@ -12,8 +12,7 @@
           box-sizing: border-box;
 }
 
-
-@media (min-width: 425px) {
+@media screen and (min-width: 425px) {
   .lead {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -29,7 +28,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .lead {
     padding: 40px 78px 150px;
   }

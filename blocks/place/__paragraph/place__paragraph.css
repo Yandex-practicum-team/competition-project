@@ -10,25 +10,25 @@
   margin: 0 16px 0;
 }
 
-@media (min-width: 425px) {
+@media screen and (min-width: 425px) {
   .place__paragraph {
     margin: 0 24px 28px;
   }
 }
 
-@media (min-width: 425px) {
+@media screen and (min-width: 425px) {
   .place__paragraph:last-of-type {
     margin: 0 24px 0;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .place__paragraph {
-    margin: 0 28px 0 80px;
+    margin: 0  0 28px 80px;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .place__paragraph:last-of-type {
     margin: 0 0 0 80px;
   }

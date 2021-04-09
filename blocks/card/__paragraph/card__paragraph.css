@@ -2,15 +2,11 @@
   margin: 0;
   font-size: 14px;
   line-height: 1.5;
-  /* padding-bottom: 60px; */
+  word-spacing: 3px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
   -webkit-margin-after: 0;
           margin-block-end: 0;
 }
 
-@media screen and (min-width: 1024px) {
-  .card__paragraph {
-    padding-bottom: 0;
-  }
-}
+

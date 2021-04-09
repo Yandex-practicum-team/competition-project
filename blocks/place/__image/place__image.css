@@ -6,7 +6,7 @@
     order: 2;
 }
 
-@media (min-width: 425px) {
+@media screen and (min-width: 425px) {
   .place__image {
     height: 450px;
     object-position: center;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .place__image {
     width: 50%;
     height: 600px;
